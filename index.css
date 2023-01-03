@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    left: 90px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2f2e41;
+}
+
+.SearchBox {
+    background-color: #fff;
+    position: fixed;
+    top: 50px;
+    right: 90px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 3px #ccc;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    width: 80px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.search a {
+    color: #2f2e41;
+}
+
+.section1 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%);
+}
+
+.section1 img {
+    width: 600px;
+}
+
+.section1Button {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+   transform: translate(-90%, -50%);
+}
+
+.section1Button h1, h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4rem;
+    padding: 10px;
+    line-height: 3px;
+    letter-spacing: 3px;
+    color: #2f2e41;
+
+}
+
+.section1Button h1 {
+    letter-spacing: 1.5rem;
+}
+
+.section1Button .color {
+    color: #7A72FF;
+}
+
+.section1Button .btn {
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    background-color: #2f2e41 ;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900px;
+    border: transparent;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+
+.section1Button .btn:hover {
+    color: #fff;
+    background-color: #7A72FF;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+
+.icon {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 30px;
+    width: 50px;
+    height: 230px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px #ccc;
+    z-index: 1;
+}
+
+.icon a {
+    color: #2f2e41;
+}
+
+.icon a:hover .fa-facebook-f {
+    color: #1877f2;
+}
+
+.icon a:hover .fa-twitter {
+    color: #1d9bf0;
+}
+
+.icon a:hover .fa-instagram {
+    color: #cb3d82;
+}
+
+.icon a:hover .fa-youtube {
+    color: #ff0000;
+}
+
+
+.productSection {
+    background-color: #fff;
+    position: relative;
+    width: 85%;
+    background-size:1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 40px 20px;
+    margin-top: -60px;
+}
+
+.productSection > h3 {
+    margin: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: myriad pro;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    color:#323543;
+    letter-spacing: 2px;
+}
+
+.product {
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.productBox {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.productBox img {
+    height: 180px;
+}
+
+.productBox p {
+    color: #4d4d4d70;
+    letter-spacing: 0.5;
+    font-size: 0.9rem;
+    font-family: myriad pro;
+}
+
+.productBox a {
+    font-family: poppins;
+    font-size: 1rem;
+    color: #2c2c2c;
+}
+
+.Buybtn {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    bottom: -20px;
+    background: linear-gradient(120deg,#6b60ec 20%,#a166f4);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    display: none;
+}
+
+.productBox:hover  .Buybtn{
+    display: flex;
+    cursor: pointer;
+}
+
+.productBox:hover {
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.productBox:hover {
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+.TextColor {
+    color: #7a72ff;
+}
+
+.about {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 30px;
+    margin-bottom: 150px !important;
+}
+
+.aboutBox {
+    width: 40%;
+    font-family: myriad pro;
+}
+.aboutBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aboutBox h1 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.aboutBox h4 {
+    color: #333333;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutBox p {
+    color: #333333;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.footer {
+    width: 100%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerText {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.notificationBox {
+    background-color: #fff;
+    height: 66px;
+    width: 500px;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.Emailbtn {
+    width: 120px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 140px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-top: 1px;
+    border: transparent;
+}
+
+.notificationInput {
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.Emailbtn:hover {
+    background: #7A72FF;
+    transition: all ease 0.3s;
+}
